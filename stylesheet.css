@@ -1,0 +1,136 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+
+.header{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_uGg0GfGUxvCfW91xdKso48qn4CHrwafUxA&usqp=CAU);
+  color:rgb(216, 14, 14);
+  height:90px;
+  
+  background-position: 100%;
+  background-repeat:no-repeat;
+  back
+}
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+.header-list {
+  float:left;
+}
+.header-list li{
+  float:left;
+  padding:33px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image:url(https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60);
+  text-align:center;
+  background-size:cover;
+  color:white;
+  background-position: 100%;
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.top-wrapper h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom:10px;
+}
+
+
+
+.centre{
+  padding:12px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius:4px;
+  background-color:#239b76;
+}
+.centre:hover{
+  opacity:1;
+}
+.fa{
+  margin-right:5px;
+}
+marquee{
+  background-color:#3b5998;
+  padding:12px 24px;
+  font-size: 25px;
+}
+.header marquee{
+  color: red;
+}
+marquee{
+  color:white;
+}
+.contents{
+  height:500px;
+  margin-top:1px;
+  margin-bottom:100px;
+  padding:0 80px;
+}
+.section-title{
+  border-bottom:2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+.contents-item{
+  float:left;
+  margin-right:40px;
+}
+.contents-item p{
+  font-size:20px;
+  margin-top:30px;
+  color:white;
+  opacity:0.8;
+  border-radius:4px;
+  background-color:#239b76;
+}
+.contents-item p:hover{
+  opacity:1;
+}
+.feedback-form{
+  padding-top:10px;
+  padding-bottom:100px;
+  padding-left:100px;
+  padding-right:100px;
+}
+input, textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  font-size:18px;
+  padding:20px;
+  border:1px solid #dee7ec;
+}
+.feedback-submit{
+  background-color:#dee7ec;
+  color:#1b78ad;
+  text-align:centre;
+  padding:20px 100px;
+}
+ 
